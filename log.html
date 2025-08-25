@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="log.css">
+    <script src="log.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+    <video autoplay loop muted plays-inline name="media">
+      <source src="vid.mp4" type="video/mp4">
+    </video>
+
+
+    <div class="container">
+    <form id="login-form">
+        <h1>Login</h1>
+        <input type="text" id="login-username" placeholder="Username" required>
+        <input type="password" id="login-password" placeholder="Password" required>
+        <p id="login-error" class="error"></p>
+        <button type="button" onclick="login()">Login</button>
+        <button type="button" onclick="parent.location='sign.html'">Sign up</button>
+        
+    </form>
+    </div>
+    <script>
+    </script>
+</body>
+</html>
